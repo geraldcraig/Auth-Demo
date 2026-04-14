@@ -1,0 +1,4 @@
+-- INSERT INTO CUSTOMERS (CUSTOMER_ID, FIRST_NAME, LAST_NAME) VALUES
+-- ('1', 'John', 'Doe'),
+-- ('2', 'Jane', 'Smith'),
+-- ('3', 'Emily', 'Johnson');
