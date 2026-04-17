@@ -1,8 +1,7 @@
-package com.example;
+package com.example.service;
 
+import com.example.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class CustomerService {
