@@ -1,7 +1,10 @@
 package com.example.service;
 
+import com.example.model.Customer;
 import com.example.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class CustomerService {
@@ -12,7 +15,7 @@ public class CustomerService {
         this.customerRepository = customerRepository;
     }
 
-//    public List<Customer> getAllCustomers() {
-//        return customerRepository.findAll();
-//    }
+    public List<Customer> getAllCustomers() {
+        return customerRepository.findAll();
+    }
 }
